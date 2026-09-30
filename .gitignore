@@ -1,0 +1,182 @@
+# =========================================================
+# Операционные системы
+# =========================================================
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# --- Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Linux ---
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =========================================================
+# IDE и редакторы
+# =========================================================
+
+# --- VS Code (общие настройки проекта можно оставить в репозитории) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# --- JetBrains (IntelliJ IDEA, PyCharm, WebStorm, GoLand и др.) ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.fleet/
+
+# --- Vim / Neovim ---
+*.swp
+*.swo
+*.swn
+*.un~
+Session.vim
+.netrwhist
+tags
+
+# --- Emacs ---
+\#*\#
+.\#*
+*.elc
+auto-save-list/
+.projectile
+.dir-locals-2.el
+
+# --- Sublime Text ---
+*.sublime-workspace
+*.sublime-project
+
+# --- Zed ---
+.zed/
+
+# --- Xcode ---
+xcuserdata/
+*.xcuserstate
+
+# =========================================================
+# Оркестраторы и ассистенты ИИ-агентов
+# Общие для команды файлы (CLAUDE.md, AGENTS.md, .mcp.json,
+# .claude/settings.json, skills/) остаются в репозитории.
+# =========================================================
+
+# --- Claude Code ---
+.claude/settings.local.json
+.claude/todos/
+.claude/logs/
+.claude/cache/
+CLAUDE.local.md
+
+# --- Cursor ---
+.cursor/*
+!.cursor/rules/
+.cursorindexingignore
+
+# --- Windsurf / Codeium ---
+.windsurf/*
+!.windsurf/rules/
+.codeium/
+
+# --- Aider ---
+.aider*
+!.aiderignore
+
+# --- Continue ---
+.continue/*
+!.continue/config.yaml
+!.continue/rules/
+
+# --- Cline / Roo Code ---
+.cline/
+.roo/*
+!.roo/rules/
+memory-bank/
+
+# --- GitHub Copilot ---
+.copilot/
+
+# --- OpenAI Codex CLI ---
+.codex/
+
+# --- Gemini CLI ---
+.gemini/*
+!.gemini/settings.json
+
+# --- Прочие агенты и фреймворки (OpenHands, CrewAI, AutoGen, LangGraph и т.п.) ---
+.openhands/
+.openhands-state/
+.crewai/
+.autogen/
+.langgraph_api/
+.langchain/
+.agent/
+.agents/cache/
+agent_workspace/
+workspace_artifacts/
+
+# --- Локальные MCP-конфиги с секретами ---
+.mcp.local.json
+mcp.local.json
+
+# =========================================================
+# Секреты и переменные окружения
+# =========================================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+
+# =========================================================
+# Общие артефакты сборки, логи и временные файлы
+# =========================================================
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+coverage/
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
